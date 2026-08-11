@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+  body {
+    background-color: red;
+  }
+  
+  #conteiner {
+    width: 600px;
+    height: 400px;
+  }
+  #conteiner > #img {
+    float: left;
+    width: 40%;
+    height: 100%;
+  }
+
+  #conteiner > #campo {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: right;
+  }
+  input {
+    text-align: right;
+  }
+}
+
+/*background-image: linear-gradient(to top, #00804b, #3bcfcf, #23a5f0);
