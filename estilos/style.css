@@ -7,7 +7,8 @@
 }
 
 body {
-  background-image: linear-gradient(to left, #3bcfcf, #098888);
+  background: url(../imagens/cosmos1.png) no-repeat;
+  background-size: cover;
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
@@ -57,9 +58,9 @@ main {
   width: 270px;
   height: 26px;
   margin:  5px;
-  padding: 8px;
+  padding: 7px 2px;
   background-color: #348a8a85;
-  border: 1px solid #3bcfcf4d;
+  border: 1px solid #2566664d;
   border-radius: 15px;
 }
 
@@ -68,10 +69,10 @@ main {
   width: calc(100% - 44px);
   height: 34px;
   margin: -1px -8px;
-  padding: 7px;
-  padding-bottom: 0;
+  padding: 2px 8px;
+  padding-bottom: 5px;
   border-radius: 15px;
-  border: 1px solid #2566664d;;
+  border: 1px solid #2566664d;
   transform: translateY(-8px) ;
 }
 
@@ -80,13 +81,23 @@ label {
 }
 
 section span {
-  width: 21px;
+  width: 16px;
   height: 25px;
   margin-top: -8px;
   padding: 8px;
   color: white;
-  border: 1px solid #3bcfcf4d;
+  border: none;
   transform: translateY(-6px);
+}
+
+.buttom > a > input {
+  display: block;
+  width: 96%;
+  height: 40px;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 15px;
+  border: 1px solid #206868ab;
 }
 
 .buttom > input {
@@ -99,8 +110,12 @@ section span {
   border: 1px solid #206868ab;
 }
 
-.buttom > input:hover {
+.buttom > a > input:hover {
   background-color: #6dc0c0d0;
   color: white;
 }
 
+.buttom > input:hover {
+  background-color: #6dc0c0d0;
+  color: white;
+}

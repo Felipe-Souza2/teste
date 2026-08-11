@@ -3,7 +3,7 @@
 @media screen and (min-width:768px) and (max-width:992px) {
   
   body {
-    background-image: linear-gradient(to top, #00804b, #3bcfcf, #23a5f0);
+    background: url(../imagens/cosmos2.png) no-reapet;
   }
   #conteiner {
     width: 600px;
@@ -14,6 +14,10 @@
     width: 45%;
     height: 100%;
     background-size: cover;
+  }
+
+  .text > p {
+    text-align: center;
   }
 
   #conteiner > .campo {
@@ -30,16 +34,40 @@
     margin: 3px;
   }
 }
-
-@media screen and (min-width:992) and (max-width:1200) {
+@media screen and (min-width:992px) {
 
   body {
-    background-image: linear-gradient(to top, #007c80, #1ce4dada, #3bcfcf, #23a5f0);
+    background: aqua url(../imagens/cosmos3.png) no-repeat;
+    background-size: cover;
+  }
+
+  #conteiner {
+    width: 600px;
+    height: 400px;
+  }
+  #conteiner > #img {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-position: left center ;
+  } 
+  .text > p {
+    text-align: center;
+  }
+
+  #conteiner > .campo {
+    float: right;
+    width: 50%;
+    height: 26px;
+  }
+
+  .buttom {
+    display: block;
+    float: right;
+    width: 54%;
+    height: 20px;
+    margin: 3x;
+    text-align: right;
   }
   
-  #conteiner {
-    float: left;
-    width: 45%;
-    height: 100%;
-  }
 }
