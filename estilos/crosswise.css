@@ -1,29 +1,45 @@
 @charset "UTF-8";
 
 @media screen and (min-width:768px) and (max-width:992px) {
-  body {
-    background-color: red;
-  }
   
+  body {
+    background-image: linear-gradient(to top, #00804b, #3bcfcf, #23a5f0);
+  }
   #conteiner {
     width: 600px;
     height: 400px;
   }
   #conteiner > #img {
-    float: left;
-    width: 40%;
+    float: right;
+    width: 45%;
     height: 100%;
+    background-size: cover;
   }
 
-  #conteiner > #campo {
-    float: right;
+  #conteiner > .campo {
+    float: left;
     width: 50%;
-    height: 100%;
+    height: 26px;
     text-align: right;
+
   }
-  input {
-    text-align: right;
+  .buttom {
+    display: block;
+    width: 54%;
+    height: 20px;
+    margin: 3px;
   }
 }
 
-/*background-image: linear-gradient(to top, #00804b, #3bcfcf, #23a5f0);
+@media screen and (min-width:992) and (max-width:1200) {
+
+  body {
+    background-image: linear-gradient(to top, #007c80, #1ce4dada, #3bcfcf, #23a5f0);
+  }
+  
+  #conteiner {
+    float: left;
+    width: 45%;
+    height: 100%;
+  }
+}
